@@ -12,8 +12,8 @@ from torch.utils.data import DataLoader, Dataset
 from SegmentationMetrics import SegmentationMetric
 working_path = os.path.dirname(os.path.abspath(__file__))
 ###############################################
-from Modules.sagnet import SAGNet
-NET_NAME = 'SAGNet'
+from Modules.AANet import AANet
+NET_NAME = 'AANet'
 DATA_NAME = 'SYSU'
 ###############################################
 import warnings
