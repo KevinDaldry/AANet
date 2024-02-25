@@ -97,7 +97,7 @@ class AANet(nn.Module):
         self.up = nn.ModuleList()
         self.fpn = WeightRearrangementModule(inner_channel * stage, stage, 256, inner_channel)
         for i in range(stage):
-            self.fusion.append(SAG(2**(6+i), inner_channel, upsize=2**(8-i)))
+            self.fusion.append(AmbiguityRefinementModule(2**(6+i), inner_channel, upsize=2**(8-i)))
             self.up.append(StdConv(inner_channel, inner_channel, kernel=1))
         self.out = StdConv(inner_channel, out_channel, kernel=1)
 
