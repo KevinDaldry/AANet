@@ -1,6 +1,6 @@
-# EAGNet
-Pre Open Source for the EAGNet code produced by Xu SiQi from NUIST, China.
+# AANet
+Open Source for the AANet code for *AANet: An Ambiguity-Aware Network for Remote Sensing Image Change Detection*
 
-Our paper still under construction will be coming out soon in April titled EAGNet: A Enhanced Ambiguity Guided and Weight Rearranged Network for Binary Change Detection in VHR Remote Sensing Images.
+The pre-trained weight for AANet on SYSU-CD will be available soon on BaiDu Netdisk.
 
-Model Weights for SAGNet on SYSU-CD is available. Please contact my E-mail 202212490401@nuist.edu.cn.
+For more information and communication, please contact me with 202212490401@nusit.edu.cn
