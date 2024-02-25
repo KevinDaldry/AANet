@@ -42,9 +42,9 @@ class InceptionConv(nn.Module):
         return out + res
 
 
-class SAG(nn.Module):
+class AmbiguityRefinementModule(nn.Module):
     def __init__(self, in_channel, out_channel, upsize):
-        super(SAG, self).__init__()
+        super(AmbiguityRefinementModule, self).__init__()
         self.c = out_channel
         self.up = upsize
         self.cos = nn.CosineSimilarity(dim=-1)
