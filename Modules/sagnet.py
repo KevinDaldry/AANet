@@ -89,9 +89,9 @@ class ResBlock(nn.Module):
         return out
 
 
-class SAGNet(nn.Module):
+class AANet(nn.Module):
     def __init__(self, in_channels=3, out_channel=2, inner_channel=128, stage=4):
-        super(SAGNet, self).__init__()
+        super(AANet, self).__init__()
         self.FCN = FCN(in_channels, pretrained=True)
         self.fusion = nn.ModuleList()
         self.up = nn.ModuleList()
