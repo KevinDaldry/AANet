@@ -10,6 +10,7 @@ The pre-trained weight for AANet on SYSU-CD is available on Baidu Netdisk *https
 For more information and communication, please contact me at 202212490401@nusit.edu.cn
 
 If you find this work interesting, you can refer its citation here:
+
     @ARTICLE{10454002,
     author={Hang, Renlong and Xu, Siqi and Yuan, Panli and Liu, Qingshan},
     journal={IEEE Transactions on Geoscience and Remote Sensing}, 
