@@ -130,5 +130,5 @@ class AANet(nn.Module):
 
 
 if __name__ == '__main__':
-    model = SAGNet(3, 2, inner_channel=128).to('cuda')
+    model = AANet(3, 2, inner_channel=128).to('cuda')
     summary(model, input_size=[(3, 256, 256), (3, 256, 256)])
