@@ -68,7 +68,7 @@ Validation is implanted into Training process. Check for the detail in train() a
 
 def main():        
 
-    net = SAGNet(3, 2, 128).to('cuda')
+    net = AANet(3, 2, 128).to('cuda')
     # net.load_state_dict(torch.load(args['load_path']), strict=False)
 
     '''
