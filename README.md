@@ -14,10 +14,9 @@ If you find this work interesting, you can refer its citation here:
     @ARTICLE{10454002,
     author={Hang, Renlong and Xu, Siqi and Yuan, Panli and Liu, Qingshan},
     journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-    title={AANet: An Ambiguity-Aware Network for Remote Sensing Image Change Detection}, 
+    title={AANet: An Ambiguity-Aware Network for Remote-Sensing Image Change Detection}, 
     year={2024},
-    volume={},
+    volume={62},
     number={},
-    pages={1-1},
-    keywords={Feature extraction;Task analysis;Deep learning;Fuses;Program processors;Convolution;Vectors;Change Detection;Ambiguity-aware Network;Convolutional Features;Multi-scale Objects},
+    pages={1-11},
     doi={10.1109/TGRS.2024.3371463}}
