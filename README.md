@@ -1,4 +1,4 @@
-![image](https://github.com/KevinDaldry/AANet/assets/78413857/5c4c793f-5821-46b9-976d-36ae1da98eea)# AANet
+
 Open Source for the codes of AANet in [*AANet: An Ambiguity-Aware Network for Remote Sensing Image Change Detection*](https://ieeexplore.ieee.org/document/10454002).
 
 <div align="center">
